@@ -11,8 +11,8 @@ module SolidusVolumePricing
         }, class_name: '::Spree::VolumePrice', through: :volume_price_models, source: :volume_prices
         accepts_nested_attributes_for :volume_prices, allow_destroy: true,
           reject_if: proc { |volume_price|
-                        volume_price[:amount].blank? && volume_price[:range].blank?
-                      }
+            volume_price[:amount].blank? && volume_price[:range].blank?
+          }
       end
     end
 
