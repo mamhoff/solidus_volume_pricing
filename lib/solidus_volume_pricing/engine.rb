@@ -6,7 +6,6 @@ require 'solidus_support'
 module SolidusVolumePricing
   class Engine < Rails::Engine
     include SolidusSupport::EngineExtensions
-    include Flickwerk
 
     isolate_namespace ::Spree
 

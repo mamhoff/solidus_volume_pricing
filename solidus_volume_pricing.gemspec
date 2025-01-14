@@ -32,7 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'solidus_backend', ['>= 2.4.0', '< 5']
   spec.add_dependency 'coffee-rails'
   spec.add_dependency 'deface'
-  spec.add_dependency 'flickwerk', '~> 0.3.1'
   spec.add_dependency 'sassc-rails'
   spec.add_dependency 'solidus_core', ['>= 2.0.0', '< 5']
   spec.add_dependency 'solidus_support', '~> 0.8'
